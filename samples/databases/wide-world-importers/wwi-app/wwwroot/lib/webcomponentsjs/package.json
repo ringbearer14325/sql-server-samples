@@ -22,7 +22,7 @@
     "url": "https://github.com/webcomponents/webcomponentsjs/issues"
   },
   "scripts": {
-    "build": "gulp",
+    "build": "node api.js && gulp",
     "test": "wct"
   },
   "homepage": "https://webcomponents.org/polyfills",
